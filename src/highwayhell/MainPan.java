@@ -9,7 +9,7 @@ public class MainPan extends JPanel{
     private BufferedImage Road;
     public MainPan(){
         try{
-            Road = ImageIO.read(new File("road.jpg"));
+            Road = ImageIO.read(new File("img\\road.jpg"));
         } catch (IOException ex){
             //handle exception...
         }
