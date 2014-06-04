@@ -3,6 +3,6 @@ package highwayhell;
 
 public class main {
     public static void main(String[] args){
-        MainFrame frame = new MainFrame();
+        MainFrame frame = new MainFrame();//creates the frame
     }
 }
